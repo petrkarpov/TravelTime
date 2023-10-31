@@ -8,6 +8,6 @@ public class Main {
         final double FROM_OFFICE_TO_HOME_KM = TRAVEL_TIME * SLOWING_TAXI_EVENING;
 
         System.out.println("Время от дома до офиса: " + TRAVEL_TIME);
-        System.out.println("Время от офиса до дома: " + DISTANCE_FROM_HOME_TO_OFFICE_KM);
+        System.out.println("Время от офиса до дома: " + FROM_OFFICE_TO_HOME_KM);
     }
 }
