@@ -3,7 +3,6 @@ public class Main {
         final int distanceFromHomeToOfficeKm = 50;
         final double averageTaxiSpeedKm = 60.5;
         final double travelTime = distanceFromHomeToOfficeKm / averageTaxiSpeedKm;
-
         final double slowingTaxiEvening = 1.5;
         final double fromOfficeToHomeKm = travelTime * slowingTaxiEvening;
 
